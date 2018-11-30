@@ -48,7 +48,7 @@ char auth[] = "*******************************";
 char ssid[] = "************";
 char pass[] = "********";
 
-#define vibrationPin D0
+#define vibrationPin D5
 int stopCount = 0;
 int stopThreshold = 360; // checking every 1 second for 6 minutes
 int startCount = 0;
